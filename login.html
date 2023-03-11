@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2 Player Math Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">2 Player Math Quiz</h1>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Player 1</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label for="player1Name">Name:</label>
+                <input type="text" class="form-control" id="player1Name">
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Player 2</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label for="player2Name">Name:</label>
+                <input type="text" class="form-control" id="player2Name">
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg btn-block" onclick="addUser()">Login</button>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="game_login.js"></script>
+  </body>
+</html>
